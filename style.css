@@ -17,6 +17,9 @@ h2{
 
 p{
 	text-align: center;
-	font-size: 20px;
-	font-style: Palatino, sans-serif;
+	font-family: Gill Sans;
+}
+
+embed{
+	text-align: center;
 }
