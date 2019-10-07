@@ -21,6 +21,9 @@ p{
 	font-size: 26px;
 }
 
-embed{
-	text-align: center;
+img, embed{
+margin-top: 20px; 
+margin-left: auto; 
+margin-right: auto; 
+display: block; 
 }
