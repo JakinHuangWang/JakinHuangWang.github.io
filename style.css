@@ -22,10 +22,9 @@ p{
 }
 
 img, embed{
-	position: absolute;
 	margin-top: 20px; 
 	margin-left: auto; 
 	margin-right: auto; 
-	left: 50%;
+	text-aligh: center;
 	display: block; 
 }
