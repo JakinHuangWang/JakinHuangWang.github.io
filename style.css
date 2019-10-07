@@ -11,14 +11,19 @@ h1{
 }
 
 h2{
-	text-align: center;
+	text-align: left;
 	font-size: 32px;
+	margin-left: 300px;
+	margin-right: 300px;
 }
 
 p{
-	text-align: center;
+	text-align: left;
 	font-family: Gill Sans;
 	font-size: 26px;
+	margin-left: 300px;
+	margin-right: 300px;
+	opacity: 0.7;
 }
 
 img, embed{
