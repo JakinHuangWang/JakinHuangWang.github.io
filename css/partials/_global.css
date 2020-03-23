@@ -1,4 +1,4 @@
-@import url(./_variables.css);
+@import url(./partials/_variables.css);
 
 .button{
   padding: .8rem 2.2rem;
