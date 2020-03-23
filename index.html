@@ -12,6 +12,7 @@
 	<link rel="icon" href="./alphabet.svg">
 	<link rel="stylesheet" href="./css/style.css">
 	<link rel="stylesheet" href="./partials/_variables.css">
+	<link rel="stylesheet" href="./partials/_global.css">
 	<!-- Google Font -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 	<title>Jakin Wang</title>
@@ -21,6 +22,7 @@
 	<!-- Header -->
 	<header class="header-area">
 		<div class="main-menu">
+			<a name="home"></a>
 			<nav class="navbar navbar-expand-lg navbar-light">
 				<a class="navbar-brand" href="#"><img src="alphabet.svg" alt="logo" width="50px" height="50px"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,10 +32,10 @@
 					<div class="mr-auto"></div>
 					<ul class="navbar-nav">
 						<li class="nav-item active">
-							<a class="nav-link" href="#">Home</a>
+							<a class="nav-link" href="#home">Home</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">About</a>
+							<a class="nav-link" href="#about-area">About</a>
 						</li>
 						<li class="nav-item">
 							<a href="#" class="nav-link">Skills</a>
@@ -54,8 +56,6 @@
 
 	<!-- Start Main Area -->
 	<main class="site-main">
-
-
 		<!-- Start Banner Area -->
 		<section class="site-banner">
 			<div class="container">
@@ -63,22 +63,50 @@
 					<div class="col-lg-6 col-md-12">
 						<h3 class="title-text">Hey</h3>
 						<h1 class="title-text text-uppercase">I am Jakin Wang</h1>
-						<h4 class="title-text text-uppercase">Junior CS Student@UCLA</h4>
-						<div class="site-button">
-							<div class="d-flex flex-row flex-wrap justify-content-center">
-								<button type='button' class="btn button primary-button mr-4 text-uppercase">hire me</button>
-								<button type='button' class="btn button secondary-button text-uppercase" onclick="window.location.href='/test.html'">Get Resume</button>
-							</div>
-						</div>
+						<h4 class="title-text" >Aspiring Software Engineer</h4>
 					</div>
-					<div class="col-lg-6 col-md-12 text-center">
-						<img src="Me.jpg" alt="banner-img" class="img-fluid">
+					<div class="col-lg-6 col-md-12 text-center banner-img">
+						<img src="Me.jpg" alt="banner-img" class="personal-img">
 					</div>
 				</div>
 			</div>
 		</section>
 		<!-- End Banner Area -->
 
+		<!-- Start About Area-->
+		<section class="about-area">
+			<div class="container-fluid">
+				<a name="about-area"></a>
+				<div class="row">
+					<div class="col-lg-6 col-md-12 pl-5">
+						<div class="about-image">
+							<img src="About.jpg" alt="A Little About Myself" class="img-fluid">
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-12 about-title pl-5">
+						<h2 class='text-uppercase pt-5'>
+							<span>Let me</span>
+							<span>introduce</span>
+							<span>myself</span>
+						</h2>
+						<div class="paragraph py-4 w-75">
+							<p class="para">
+								My name is Jakin Wang and I am a third-year Computer Science Student at UCLA.
+							</p>
+							<p class="para">
+								I enjoy working on cool projects like web-scraping, GUI-Design, and front-end developement.
+								In my free time, I like to work-out, play League of Legends, and hang out with friends.
+								I am always open to new knowledges on the web and in the Industry.
+							</p>
+						</div>
+						<a href="test.html" target="_blank"><button type='button' class="btn button primary-button text-uppercase">Get Resume</button></a>
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+		<!-- End About Area-->
 
 	</main>
 	<!-- End Main Area -->
