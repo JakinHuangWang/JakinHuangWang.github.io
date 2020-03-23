@@ -1,26 +1,114 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script src="./js/jquery-1.11.3.min.js"></script>
-  	<script src="./js/bootstrap.min.js"></script>
-  	<script src="./js/script.js"></script>
-	<link rel="stylesheet" href="./style.css">
-
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="./js/jquery-1.11.3.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/script.js"></script>
+	<link rel="icon" href="./alphabet.svg">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./partials/_variables.css">
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 	<title>Jakin Wang</title>
 </head>
 <body>
-	
-	<nav class="navbar navbar-expand-lg bg-light navbar-light sticky-top d-flex justify-content-center">
-		<a class="navbar-brand" href="#">Jakin Wang</a>
-  		<a class="navbar-brand" href="#">(408)650-4901</a>
-  		<a class="navbar-brand" href="#">jakinw0508@g.ucla.edu</a>
-  		<a class="navbar-brand" href="https://www.linkedin.com/in/jakin-wang-03b08414a/">Linkedin</a>
-  		<a class="navbar-brand" href="https://www.linkedin.com/in/jakin-wang-03b08414a/">Github</a>
-	</nav>
+
+	<!-- Header -->
+	<header class="header-area">
+		<div class="main-menu">
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<a class="navbar-brand" href="#"><img src="alphabet.svg" alt="logo" width="50px" height="50px"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<div class="mr-auto"></div>
+					<ul class="navbar-nav">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">About</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">Skills</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">Projects</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</header>
+
+	<!-- End Header Area -->
+
+	<!-- Start Main Area -->
+	<main class="site-main">
+
+
+		<!-- Start Banner Area -->
+		<section class="site-banner">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-md-12">
+						<h3 class="title-text">Hey</h3>
+						<h1 class="title-text text-uppercase">I am Jakin Wang</h1>
+						<h4 class="title-text text-uppercase">Junior CS Student@UCLA</h4>
+						<div class="site-button">
+							<div class="d-flex flex-row flex-wrap justify-content-center">
+								<button type='button' class="btn button primary-button mr-4 text-uppercase">hire me</button>
+								<button type='button' class="btn button secondary-button text-uppercase" onclick="window.location.href='/test.html'">Get Resume</button>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-12 text-center">
+						<img src="Me.jpg" alt="banner-img" class="img-fluid">
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Banner Area -->
+
+
+	</main>
+	<!-- End Main Area -->
+
+	<!-- <div class="container-fluid" style="border: white 1px solid;">
+		<div class="row">
+			<div class="col-sm-3 col-lg-2">
+				<nav class="navbar navbar-dark bg-dark navbar-fixed-side fixed-top" style="height: 100%; width: 
+				15%;">
+					<ul style="margin-left: -3%; color: whitesmoke;">
+						<li class='navbar-item'>
+							<a href="#" style="margin-left: 0%;">Jakin Wang</a>
+						</li>
+						<li class='navbar-item'>
+							<a href="#" style="margin-top: 2%;">(408)650-4901</a>
+						</li>
+						<li class='navbar-item'>
+							<a href="#" style="margin-top: 2%;">jakinw0508@g.ucla.edu</a>
+						</li>
+						<li class='navbar-item'>
+							<a href="https://www.linkedin.com/in/jakin-wang-03b08414a/">Linkedin</a>
+						</li>
+						<li class='navbar-item'>
+							<a href="https://www.linkedin.com/in/jakin-wang-03b08414a/">Github</a>
+						</li>		
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
 
 	<div class ="jumbotron text-center">
 		<h1>Jakin Wang </h1>
@@ -71,7 +159,7 @@
       <div class="container">
         &copy; Jakin Wang 2019
       </div>
-    </footer>
+    </footer> -->
 
 </body>
 </html>
