@@ -65,6 +65,11 @@ html, body{
   box-shadow: var(--box-shadow);
 }
 
+p.para{
+	color: var(--text-color);
+	font: normal 500 16px/25px var(--Montserrat);
+}
+
 /* End Buttons Styling */
 
 .header-area .main-menu .navbar .navbar-brand{
@@ -155,7 +160,7 @@ html, body{
 	padding: 8rem 5rem;
 }
 
-.site-main .about-area .about-title h2>span{
+.site-main .about-area .about-title h2 > span{
 	display: block;
 	font: normal bold 49px/60px var(--Montserrat);
 	letter-spacing: 21px;
@@ -167,3 +172,44 @@ html, body{
 }
 
 /* End About Area */
+
+/* Start Skills Area */
+
+.site-main .brand-area{
+	padding: 5rem 15rem;
+	margin-bottom: 4rem;
+}
+
+.site-main .brand-area .first-row .col-lg-4{
+	display: flex;
+	justify-content: center;
+}
+
+.site-main .brand-area .first-row .col-lg-4 > .single-brand{
+	text-align: center;
+	padding: 1.8rem 0rem;
+	margin: 0.7rem 0.5rem;
+	cursor: pointer;
+	transition: transform 0.4s ease;
+}
+
+
+.site-main .brand-area .first-row .col-lg-4 .single-brand > img:hover{
+	box-shadow: var(--box-shadow);
+	transform: scale(1.1);
+	transition: transform 0.4s ease;
+	filter: brightness(1.1);
+}
+
+.site-main .brand-area .skill-area{
+	padding-left: 10%;
+	padding-top: 20%;
+}
+
+.site-main .brand-area .skill-area .skills-area > h2{
+	display: block;
+	font: normal bold 40px/60px var(--Montserrat);
+	letter-spacing: 10px;
+}
+
+/* End Skills Area */
